@@ -1,0 +1,20 @@
+part = {
+	location = 0
+	localization = survived_mars_start_screen_one
+
+	trigger = { has_origin = origin_survived_mars }
+}
+
+part = {
+	location = 1
+	localization = survived_mars_start_screen_two
+
+	trigger = { has_origin = origin_survived_mars }
+}
+
+part = {
+	location = 2
+	localization = survived_mars_start_screen_three
+
+	trigger = { has_origin = origin_survived_mars }
+}

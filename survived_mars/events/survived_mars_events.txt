@@ -1,0 +1,50 @@
+namespace = smars
+
+country_event {
+	id = smars.1
+
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {
+		has_origin = origin_survived_mars
+	}
+
+	immediate = {
+		every_planet_within_border = {
+			limit = { has_planet_flag = survived_mars_mars }
+			create_colony = {
+				owner = prev
+			}
+			save_event_target_as = "mars"
+			set_name = "Mars" # very silly that i have to do this
+			add_modifier = { modifier = pm_survived_mars }
+
+		}
+		every_owned_ship = {
+			limit = { is_ship_class = shipclass_science_ship }
+			set_name = "Luigi 1"
+			fleet = { set_name = "Luigi 1" }
+		}
+		every_owned_ship = {
+			limit = { is_ship_class = shipclass_constructor }
+			fleet = { set_name = "Dhalsim" }
+		}
+		create_leader = {
+			class = scientist
+			species = owner_main_species
+		}
+		create_fleet = {
+			effect = {
+				set_owner = prev
+				create_ship = {
+					name = "Avril 1"
+					random_existing_design = science
+					prefix = no
+				}
+				set_location = event_target:mars
+				assign_leader = last_created_leader
+			}
+		}
+	}
+}

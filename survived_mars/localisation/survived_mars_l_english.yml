@@ -1,0 +1,13 @@
+﻿l_english:
+	origin_survived_mars: "Survived Mars, Now What?"
+	origin_survived_mars_desc: "This civilization has terraformed and colonized a neighbouring planet in its system. Having proven itself capable, it is now aching to explore past the edge of its solar system."
+	origin_survived_mars_effects: "Start with §YMars§! colonized."
+	survived_mars_initializer_NAME: "$sol_system_initializer_NAME$"
+	survived_mars_initializer_DESC: "$sol_system_initializer_DESC$"
+
+	pm_survived_mars: "City Builder Time Distortion"
+	pm_survived_mars_desc: "Researchers on this planet work inexplicably fast. It's almost like they don't obey our universe's rules but those of a video game. A different game."
+
+	survived_mars_start_screen_one: "The Martian colonies had been been very successful. People and drones had worked hard to make Mars safe, comfortable, and painfully dull. Our grand off-world adventure had become mundane, a known quantity, and the [GetSpeciesAdj] spirit, always yearning for adventure, was getting restless. \"It just has't been the same since the §YDredgers§! left,\" lamented countless editorials and opinion pieces."
+	survived_mars_start_screen_two: "Fortunately for the [GetSpeciesAdj] spirit, the very boring §Y\"Big Bowl\" Martian Radio Telescope§! was soon to make a groundbreaking discovery: mysterious constructs, allowing faster-than-light travel between star systems. A whole network of them. The Martian scientific community, elated to have something to do, figured a way to exploit those Hyperlanes within, like, five hours, and our rockets were retrofitted. It's a little strange how much faster scientists work on Mars."
+	survived_mars_start_screen_three: "Now we stand in our galactic doorway, ready to step outside for the first time. We don't know for sure what is out there, but we're at least somewhat certain that it will be exciting."

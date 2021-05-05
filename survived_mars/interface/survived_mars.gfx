@@ -1,0 +1,7 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_survived_mars"
+		texturefile = "gfx/event_pictures/origins/survived_mars.dds"
+		alwaystransparent = yes
+	}
+}

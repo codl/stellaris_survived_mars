@@ -1,0 +1,9 @@
+origin_survived_mars = {
+	is_origin = yes
+	description = origin_survived_mars_effects
+	initializers = { survived_mars_initializer }
+	starting_colony = pc_continental
+	flags = { custom_start_screen }
+	picture = GFX_survived_mars
+	icon = "gfx/interface/icons/origins/survived_mars.dds"
+}

@@ -1,0 +1,7 @@
+pm_survived_mars = {
+	icon_frame = 1 # green
+	icon = "gfx/interface/icons/planet_modifiers/pm_survived_mars.dds"
+	#custom_tooltip = pm_survived_mars_desc
+	#is_for_colonizeable = yes
+	planet_researchers_produces_mult = 1
+}
